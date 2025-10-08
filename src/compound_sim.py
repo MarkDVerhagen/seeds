@@ -430,8 +430,8 @@ def main(
     # Fixed world (allocation fixed)
     N: int = 600,
     d: int = 16,
-    miss_rate: float = 0.30,
-    alloc_seed: int = 11,
+    miss_rate: float = 0.50,
+    alloc_seed: int = 42,
     tau: float = 0.1,
 
     # single-factor run counts:
@@ -444,8 +444,8 @@ def main(
 
     # execution
     use_seed_file: bool = True,
-    master_seed: int = 7,          # used only if use_seed_file=False or for vary_all sampling
-    M_imputations: int = 5,
+    master_seed: int = 42,          # used only if use_seed_file=False or for vary_all sampling
+    M_imputations: int = 1,
     n_jobs: int = -1,
     progress: bool = True,
     output_dir: str = "../data/compound/CF_sim_IME_only_exploded",
