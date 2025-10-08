@@ -1,0 +1,27 @@
+{
+  "n_rows":1031,
+  "schemes":[
+    "baseline_fixed",
+    "vary_all",
+    "vary_eval",
+    "vary_imp",
+    "vary_model"
+  ],
+  "columns":[
+    "scheme",
+    "seed_imp",
+    "seed_model",
+    "seed_eval",
+    "idx_imp",
+    "idx_model",
+    "idx_eval",
+    "ate_hat",
+    "cate_sd_test",
+    "cate_iqr_test",
+    "mi_ate_sd",
+    "mi_ate_iqr",
+    "mi_B",
+    "M_imputations",
+    "n_test"
+  ]
+}
